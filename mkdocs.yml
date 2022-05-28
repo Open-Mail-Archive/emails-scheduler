@@ -1,0 +1,43 @@
+---
+# -------------------------------------------------------------------------------------------------
+# Site configuration
+# -------------------------------------------------------------------------------------------------
+site_name: <PACKAGE_NAME>
+site_description: <PACKAGE_DESCRIPTION>
+site_author: Mircea-Pavel Anton
+# site_favicon:
+# copyright:
+theme:
+  name: material
+  palette:
+    scheme: slate
+  # logo: assets/logo.png
+  # favicon: images/favicon.png
+  features:
+    - navigation.expand
+    - toc.follow
+    - navigation.top
+
+# -------------------------------------------------------------------------------------------------
+# Repo configuration
+# -------------------------------------------------------------------------------------------------
+repo_url: https://github.com/Open-Mail-Archive/<REPO_NAME>
+repo_name: 'GitHub'
+remote_branch: gh-pages
+remote_name: origin
+
+# -------------------------------------------------------------------------------------------------
+# Documentation layout
+# -------------------------------------------------------------------------------------------------
+nav:
+  - 'Home': 'index.md'
+  - 'Changelog': 'changelog.md'
+  - 'License': 'license.md'
+
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
