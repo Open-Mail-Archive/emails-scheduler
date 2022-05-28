@@ -52,7 +52,10 @@
     "typescript": "^4.7.2"
   },
   "dependencies": {
-    "@open-mail-archive/logger": "^1.0.0-8",
+    "@open-mail-archive/logger": "^1.0.0-11",
+    "@open-mail-archive/rabbitmq-helper": "^1.0.1-14",
+    "@open-mail-archive/realtime-helper": "^1.0.1-12",
+    "@open-mail-archive/types": "^1.0.1-13",
     "dotenv": "^16.0.1"
   }
 }
