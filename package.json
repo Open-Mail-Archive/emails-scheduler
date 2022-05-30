@@ -36,12 +36,11 @@
   "homepage": "https://github.com/Open-Mail-Archive/emails-scheduler#readme",
   "devDependencies": {
     "@types/jest": "^27.5.1",
-    "@types/node": "^17.0.35",
-    "@typescript-eslint/eslint-plugin": "^5.26.0",
-    "@typescript-eslint/parser": "^5.26.0",
+    "@types/node": "^17.0.36",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
     "eslint": "^8.16.0",
     "eslint-config-google": "^0.14.0",
-    "husky": "^8.0.1",
     "jest": "^28.1.0",
     "nodemon": "^2.0.16",
     "prettier": "^2.6.2",
@@ -52,10 +51,11 @@
     "typescript": "^4.7.2"
   },
   "dependencies": {
-    "@open-mail-archive/logger": "^1.0.0-11",
-    "@open-mail-archive/rabbitmq-helper": "^1.0.1-14",
-    "@open-mail-archive/realtime-helper": "^1.0.1-12",
-    "@open-mail-archive/types": "^1.0.1-13",
+    "husky": "^8.0.1",
+    "@open-mail-archive/logger": "^1.0.0-12",
+    "@open-mail-archive/rabbitmq-helper": "^1.0.1-17",
+    "@open-mail-archive/realtime-helper": "^1.0.1-13",
+    "@open-mail-archive/types": "^1.0.1-19",
     "dotenv": "^16.0.1"
   }
 }
