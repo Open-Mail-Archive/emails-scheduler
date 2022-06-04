@@ -14,7 +14,6 @@ jobs:
   test:
     name: Run jest tests
     runs-on: ubuntu-latest
-    if: contains( github.event.pull_request.labels.*.name, 'dev:test')
     env:
       SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
       SUPABASE_SERV_KEY: ${{ secrets.SUPABASE_SERV_KEY }}
