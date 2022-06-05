@@ -1,6 +1,6 @@
 {
   "name": "@open-mail-archive/emails-scheduler",
-  "version": "1.0.1-0",
+  "version": "1.0.1-1",
   "description": "Microservice from the scheduler component of the app, responsible for generating jobs related to emails. ",
   "type": "module",
   "main": "dist/index.js",
